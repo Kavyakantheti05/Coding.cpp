@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T,A,B,C,D;
+	cin>>T;
+	for(int i=0;i<T;i++)
+    {
+        cin>>A>>B>>C;
+        D=max(A,max(B,C));
+        if(D==A)
+        cout<<"Alice"<<"\n";
+        else if(D==B)
+        cout<<"Bob"<<"\n";
+        else
+        cout<<"Charlie"<<"\n";
+        
+    } 
+return 0;
+}
