@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T,N,K;
+	cin>>T;
+	while(T--){
+	    cin>>N>>K;
+	    if(K>N)
+	    cout<<"YES"<<endl;
+	    else
+	    cout<<"NO"<<endl;
+	}
+return 0;
+}
