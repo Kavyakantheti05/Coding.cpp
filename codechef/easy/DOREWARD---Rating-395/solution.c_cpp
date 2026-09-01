@@ -2,16 +2,14 @@
 using namespace std;
 
 int main() {
-	int testcases, x;
-    cin >> testcases;
-    for (int t = 0; t < testcases; t++) {
-        cin >> x;
-        if (x <= 3)
-            cout << "Bronze" << endl;
-        else if (x <= 6)
-            cout << "Silver" << endl;
+	int t, x, y;
+    cin >> t;
+    while (t--) {
+        cin >> x >> y;
+        if (y <= 5 * x)
+            cout << "Yes" << endl;
         else
-            cout << "Gold" << endl;
+            cout << "No" << endl;
     }
     return 0;
 
