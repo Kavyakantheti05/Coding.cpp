@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+    cin >> t;
+    while (t--) {
+        int f, s;
+        cin >> f >> s;
+        
+        if (f < s) {
+            cout << "FIRST" << endl;
+        } else if (f > s) {
+            cout << "SECOND" << endl;
+        } else {
+            cout << "ANY" << endl;
+        }
+    }
+    return 0;
+
+}
